@@ -69,7 +69,7 @@ int c;
          case 4:
         
         
-        printf("Ramen Is Avaible And Ready To Order \n");
+        printf("Burger Is Avaible And Ready To Order \n");
         printf("To Confirm the order pls enter 0 for yes and 1 for No \n");
         scanf("%d",&b);
         
@@ -86,11 +86,11 @@ int c;
         }
        
       
-    system("cls");
+
      printf("Now For Your Drinks \n");
-  printf("1.pespi \n 2. coca cola \n 3.7up");
-  printf("To order pls enter the corresponding number to the drink \n");
-    scanf("%d",&c);
+     printf("1.pespi \n 2. coca cola \n 3.7up \n 4. No Drinks");
+     printf("To order pls enter the corresponding number to the drink \n");
+      scanf("%d",&c);
     
 
   switch (c){
@@ -144,6 +144,11 @@ int c;
         }
         
         break;
+          
+      case 4:
+          printf("Alright");
+          
+          break;
   } }
     
 
