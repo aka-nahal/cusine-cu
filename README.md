@@ -1,4 +1,4 @@
-# Ordering Food Using C Progran.
+# Ordering Food Using C Program.
 
 A Simple Program To Order Food, Made Using C.
 
